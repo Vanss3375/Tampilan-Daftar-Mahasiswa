@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>Website Penerimaan Mahasiswa Baru</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <!-- membuat navigasi nya -->
+    <div class="menu">
+        <div class="logo">
+            <img src="download.png" width="30px" alt="ITB">
+        </div>
+        <div class="navigasi">
+            <a href="#">Home</a>
+            <a href="#">Kegiatan</a>
+            <a href="#">Daftar</a>
+        </div>
+    </div>
+    <!-- membuat form nya -->
+    <div class="Formulir">
+        <form>
+            <table>
+                <tr>
+                    <td colspan="3" align="center">Daftar Mahasiswa Baru</td>
+                </tr>
+                <tr>
+                    <td>Nama Depan</td>
+                    <td>:</td>
+                    <td><input type="text" size="50" maxlength="50" placeholder="Nama depan"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><input type="text" size="50" maxlength="50" placeholder="Alamat"></td>
+                </tr>
+                <tr>
+                    <td>Nomor Telepon / Rumah</td>
+                    <td>:</td>
+                    <td><input type="text" size="50" maxlength="50" placeholder="Nomor Telepon / Rumah"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td>
+                        <input type="text" size="50" maxlength="50" placeholder="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type=radio name=jengkel>Laki-Laki
+                        <input type=radio name=jengkel>Perempuan
+                    </td>    
+                    </tr>
+                <!-- </tr> -->
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option>Katolik</option>
+                        <option>Kristen</option>
+                        <option>Hindu</option>
+                        <option>Islam</option>
+                        <option>Buddha</option>
+                        <option>Konghucu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Foto 4 x 4</td>
+                <td>:</td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>Ijasah SMP dan SMA</td>
+                <td>:</td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>Tempat / Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <input type="text" size="30">
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Catatan</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="10" cols="46"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=3 align="center">
+                <input type=reset value=Batal class="tombol">
+                <input type=submit value=Simpan class="tombol">
+                </td>
+            </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

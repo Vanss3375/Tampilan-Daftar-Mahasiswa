@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(wallpaper.jpg); 
+}
+.menu{
+    background-color: rgb(19, 19, 170);
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .navigasi a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.menu .navigasi a:hover{
+    text-decoration: underline;
+}
+.Formulir{
+    background-color: rgba(9, 156, 214, 0.705);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: Verdana;
+    font-size: 14pt;
+}
+.tombol{
+    background-color: blue;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tombol:hover{
+    background-color: green;
+}
