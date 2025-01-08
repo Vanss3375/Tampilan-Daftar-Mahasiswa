@@ -16,3 +16,6 @@ There is 2 file
   3. activate APACHE
   4. Open VSCODE -> Open the folder
   5. Run code
+
+#Documentation : 
+![dokumentasi](https://github.com/Vanss3375/Tampilan-Daftar-Mahasiswa/blob/main/TES%20-%20HCI%20(%20penerimaan%20mahasiswa%20baru%20)/Screenshot%202025-01-08%20110858.png)
